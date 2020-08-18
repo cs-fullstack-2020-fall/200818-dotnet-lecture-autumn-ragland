@@ -10,7 +10,7 @@ Run the aplication using
 ```
 dotnet run 
 ```
-or Run > Run without Debugging in the naivation bar
+or `Run > Run without Debugging` in the naivation bar
 
 ### Get Endpoints
 In the HomeController.cs file create a new method called Test that accepts two parameters to display the content "Hello NAME. You are AGE years old"
@@ -44,6 +44,6 @@ namespace MVCLecture.Controllers
 ### Postman
 Create a new collection in Postman called "200818 MVC Lecture"
 
-Create a get request for each endpoint defined above
+Create a get request for each endpoint defined above. Access the first endpoint from `https://localhost:5001/Home/Test?name=Autumn&age=21`. Access the second endpoint from `https://localhost:5001/Test/Greeting`
 
 Export the collection to this respository 
